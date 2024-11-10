@@ -1,10 +1,12 @@
 <script setup>
-
+import linkedin from 'src/assets/linkedin_icon.svg';
+import instagram from 'src/assets/instagram_icon.svg';
+import GitHub from 'src/assets/github_icon.svg';
 const presentacion = 'Soy un apasionado desarrollador con más de 5 años de experiencia en proyectos web. Mi enfoque está en crear soluciones eficientes y escalables utilizando tecnologías como Python, Vue.js y Git. He trabajado en equipos multidisciplinarios y siempre busco aprender y crecer.'
 const redessociales = [
-    { id: 1, name: 'Linkedin', src: 'src/assets/linkedin_icon.svg', url: 'www.linkedin.com/in/TheGodsOfProgramming/'},
-    { id: 2, name: 'Instagram', src: 'src/assets/instagram_icon.svg', url: 'www.instagram.com/TheGodsOfProgrammingOK/'},
-    { id: 3, name: 'GitHub', src: 'src/assets/github_icon.svg', url: 'https://github.com/'},
+    { id: 1, name: 'Linkedin', src: linkedin, url: 'www.linkedin.com/in/TheGodsOfProgramming/'},
+    { id: 2, name: 'Instagram', src: instagram, url: 'www.instagram.com/TheGodsOfProgrammingOK/'},
+    { id: 3, name: 'GitHub', src: GitHub, url: 'https://github.com/'},
 ];
 </script>
 
